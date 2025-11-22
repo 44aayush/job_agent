@@ -1,0 +1,13 @@
+JOB SEARCH REPORT - 2025-11-22
+Total Jobs Found: 1
+Sources: {
+  "ArbeitNow": 1
+}
+==================================================
+
+Role:     Werkstudent*in Brand & Marketing Design (15 Std./Woche)
+Company:  Alma Fina GmbH
+Location: Göttingen
+Source:   ArbeitNow
+Link:     https://www.arbeitnow.com/jobs/companies/alma-fina-gmbh/werkstudentin-brand-marketing-design-15-std-woche-gottingen-211419
+--------------------------------------------------
