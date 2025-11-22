@@ -1,6 +1,5 @@
 JOB SEARCH REPORT - 2025-11-22
-Total Jobs Found: 1
-Sources: {
-  "ArbeitNow": 1
-}
+Total Jobs Found: 0
 ==================================================
+
+No new matching jobs found in the last 24h.
