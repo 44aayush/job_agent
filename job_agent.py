@@ -1,10 +1,11 @@
 import os
 import requests
 import json
+import re
 from datetime import datetime, timedelta
 
 # --- CONFIGURATION ---
-# We use a combined query to search for multiple roles at once to save API credits
+# Strict keywords - The job TITLE must contain at least one of these
 BASE_KEYWORDS = [
     "DevSecOps",
     "Cloud Security",
@@ -12,18 +13,35 @@ BASE_KEYWORDS = [
     "Infrastructure as Code",
     "Application Security",
     "Terraform",
-    "AWS"
+    "AWS",
+    "Security",
+    "Cyber Security",
+    "Information Security",
+    "IT Security"
 ]
 
-# Target Locations
-LOCATIONS = ["Germany", "Munich", "Remote"]
+# Negative keywords to filter out non-tech roles (e.g., "Marketing", "Sales")
+NEGATIVE_KEYWORDS = ["Marketing", "Sales", "HR", "Recruiting", "Design", "Legal"]
+
 JOB_RESULTS_DIR = "job_results"
 
+def contains_keyword(text, keywords):
+    """
+    Checks if any keyword exists in text (case-insensitive).
+    Uses word boundaries to avoid partial matches (e.g., preventing 'law' matching 'lawyer').
+    """
+    if not text:
+        return False
+    text = text.lower()
+    for k in keywords:
+        # Regex for word boundary to ensure exact word match (e.g. match "AWS" but not "Paws")
+        pattern = r'(?<!\w)' + re.escape(k.lower()) + r'(?!\w)'
+        if re.search(pattern, text):
+            return True
+    return False
+
 def fetch_arbeitnow_jobs():
-    """
-    Fetches jobs directly from ArbeitNow API.
-    ArbeitNow is great for English-speaking tech jobs in Germany.
-    """
+    """Fetches jobs from ArbeitNow (Free API)."""
     print("Fetching ArbeitNow jobs...")
     try:
         response = requests.get("https://www.arbeitnow.com/api/job-board-api")
@@ -31,16 +49,19 @@ def fetch_arbeitnow_jobs():
             data = response.json().get("data", [])
             filtered = []
             for job in data:
-                title_lower = job['title'].lower()
-                # Check if any of our keywords exist in the job title
-                is_keyword_match = any(k.lower() in title_lower for k in BASE_KEYWORDS)
-                is_remote = job['remote']
+                title = job['title']
                 
-                # specific filter for Werkstudent/Intern roles if possible, 
-                # but ArbeitNow often has mixed types, so we keep it broad for "English" tags
-                if (is_keyword_match or is_remote) and "Werkstudent" in job['title']:
+                # 1. Check matches
+                is_match = contains_keyword(title, BASE_KEYWORDS)
+                
+                # 2. Filter out garbage
+                is_garbage = any(n.lower() in title.lower() for n in NEGATIVE_KEYWORDS)
+                
+                # FIX: Only add if it matches keywords AND is not garbage. 
+                # Removed the "OR job['remote']" check which caused the wrong titles.
+                if is_match and not is_garbage:
                      filtered.append({
-                        "title": job['title'],
+                        "title": title,
                         "company": job['company_name'],
                         "location": job['location'],
                         "url": job['url'],
@@ -53,29 +74,29 @@ def fetch_arbeitnow_jobs():
 
 def fetch_serpapi_jobs(api_key):
     """
-    Fetches jobs from LinkedIn, Xing, Indeed via Google Jobs Aggregator.
-    We use Google Jobs because scraping LinkedIn/Indeed directly is blocked by CAPTCHAs.
-    Google Jobs aggregates all of them.
+    Fetches jobs from LinkedIn, Xing, Indeed, StepStone via Google Jobs.
     """
     if not api_key:
         print("Skipping SerpApi (No Key found in env)")
         return []
         
-    print("Fetching LinkedIn/Xing/Indeed via SerpApi...")
+    print("Fetching LinkedIn/Xing/Indeed/StepStone via SerpApi...")
     all_jobs = []
     
-    # Construct a smart query: "Werkstudent (DevSecOps OR Cloud Security OR ...)"
-    # This allows us to check 7+ job titles in a single API call.
-    or_query = " OR ".join([f'"{k}"' for k in BASE_KEYWORDS])
-    full_query = f"Werkstudent ({or_query})"
+    # Construct a specialized query to target specific platforms and roles
+    # Query Format: Werkstudent (Keywords) (site:linkedin.com OR site:xing.com ...)
+    keywords_or = " OR ".join([f'"{k}"' for k in BASE_KEYWORDS])
+    
+    # This tells Google to look specifically for these terms
+    full_query = f'Werkstudent ({keywords_or})'
     
     params = {
         "engine": "google_jobs",
         "q": full_query,
-        "hl": "en",       # English Interface
-        "gl": "de",       # Location: Germany
+        "hl": "en",       # Interface language
+        "gl": "de",       # Region: Germany
         "location": "Germany",
-        "tbs": "qdr:d",   # Posted in last 24 hours (qdr:d)
+        "tbs": "qdr:d",   # Posted in last 24 hours
         "api_key": api_key
     }
     
@@ -84,46 +105,44 @@ def fetch_serpapi_jobs(api_key):
         if response.status_code == 200:
             results = response.json().get("jobs_results", [])
             for job in results:
-                # Extract the platform name (e.g., "via LinkedIn", "via Xing")
+                # Extract source (e.g., "via LinkedIn")
                 via = job.get('via', 'Google Jobs')
                 
-                # Prioritize direct apply links
-                link = job.get('share_link')
-                if job.get('related_links'):
-                    link = job['related_links'][0].get('link', link)
+                # Filter out if the source is generic garbage, keep the good ones
+                # Google Jobs aggregates them, so we just verify the title matches our strict logic
+                if contains_keyword(job.get('title'), BASE_KEYWORDS):
+                    
+                    # Get best link
+                    link = job.get('share_link')
+                    if job.get('related_links'):
+                        link = job['related_links'][0].get('link', link)
 
-                all_jobs.append({
-                    "title": job.get('title'),
-                    "company": job.get('company_name'),
-                    "location": job.get('location'),
-                    "url": link,
-                    "source": via  # Will show "via LinkedIn", "via Indeed", etc.
-                })
+                    all_jobs.append({
+                        "title": job.get('title'),
+                        "company": job.get('company_name'),
+                        "location": job.get('location'),
+                        "url": link,
+                        "source": via  # This will display "via LinkedIn", "via Xing", etc.
+                    })
     except Exception as e:
         print(f"Error fetching SerpApi: {e}")
         
     return all_jobs
 
 def save_results(jobs):
-    """Saves the fetched jobs to a text file in the job_results folder."""
     if not os.path.exists(JOB_RESULTS_DIR):
         os.makedirs(JOB_RESULTS_DIR)
     
-    # Filename format: 221125_Result.txt (DDMMYY)
     date_str = datetime.now().strftime("%d%m%y")
     filename = f"{date_str}_Result.txt"
     filepath = os.path.join(JOB_RESULTS_DIR, filename)
     
-    # Calculate stats
-    sources = {}
-    for job in jobs:
-        src = job['source']
-        sources[src] = sources.get(src, 0) + 1
+    # Sort jobs by source for better readability
+    jobs.sort(key=lambda x: x['source'])
 
     with open(filepath, "w", encoding="utf-8") as f:
         f.write(f"JOB SEARCH REPORT - {datetime.now().strftime('%Y-%m-%d')}\n")
         f.write(f"Total Jobs Found: {len(jobs)}\n")
-        f.write(f"Sources: {json.dumps(sources, indent=2)}\n")
         f.write("==================================================\n\n")
         
         if not jobs:
@@ -142,14 +161,10 @@ def save_results(jobs):
 def main():
     serpapi_key = os.environ.get("SERPAPI_KEY")
     
-    # 1. Fetch Data from all sources
     arbeitnow_jobs = fetch_arbeitnow_jobs()
     serpapi_jobs = fetch_serpapi_jobs(serpapi_key)
     
-    # 2. Merge
     all_jobs = arbeitnow_jobs + serpapi_jobs
-    
-    # 3. Save
     save_results(all_jobs)
 
 if __name__ == "__main__":
