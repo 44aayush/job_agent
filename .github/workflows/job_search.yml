@@ -1,0 +1,47 @@
+name: Job Hunter Agent
+
+on:
+  schedule:
+    - cron: '0 0 * * *'  # Runs every 24 hours at midnight UTC
+  workflow_dispatch:     # Allows manual trigger via GitHub UI
+
+permissions:
+  contents: write        # Required to push the new file back to the repo
+
+jobs:
+  search-and-archive:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v3
+
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.9'
+
+      - name: Install dependencies
+        run: pip install requests
+
+      - name: Run Job Search Script
+        env:
+          SERPAPI_KEY: ${{ secrets.SERPAPI_KEY }}
+        run: python job_agent.py
+
+      - name: Commit and Push Results
+        run: |
+          git config --global user.name 'JobBot'
+          git config --global user.email 'jobbot@users.noreply.github.com'
+          
+          # Ensure the directory exists (git does not track empty dirs)
+          mkdir -p job_results
+          
+          git add job_results/
+          
+          # Only commit if there are new files/changes
+          if git diff --staged --quiet; then
+            echo "No changes to commit."
+          else
+            git commit -m "Add job results for $(date +'%Y-%m-%d')"
+            git push
+          fi
