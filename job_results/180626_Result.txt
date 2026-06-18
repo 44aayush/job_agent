@@ -1,0 +1,16 @@
+JOB SEARCH REPORT - 2026-06-18
+Total Jobs Found: 2
+==================================================
+
+Role:     (Senior) System Engineer (m/w/d) Network & Security Solutions
+Company:  Aphos Gesellschaft für IT-Sicherheit mbH
+Location: Eschborn
+Source:   ArbeitNow
+Link:     https://www.arbeitnow.com/jobs/companies/aphos-gesellschaft-fur-it-sicherheit-mbh/senior-system-engineer-network-security-solutions-eschborn-312989
+--------------------------------------------------
+Role:     Leiter IT Operations & Security (m/w/d)
+Company:  beratungsgruppe wirth + partner
+Location: Munich
+Source:   ArbeitNow
+Link:     https://www.arbeitnow.com/jobs/companies/beratungsgruppe-wirth-partner/leiter-it-operations-security-munich-417414
+--------------------------------------------------
