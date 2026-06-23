@@ -1,0 +1,16 @@
+JOB SEARCH REPORT - 2026-06-23
+Total Jobs Found: 2
+==================================================
+
+Role:     Systems Engineer (w/m/d) Network & Security
+Company:  AVENDIS GmbH
+Location: Mannheim
+Source:   ArbeitNow
+Link:     https://www.arbeitnow.com/jobs/companies/avendis-gmbh/systems-engineer-network-security-mannheim-257082
+--------------------------------------------------
+Role:     IT Security Engineer (m/f/d)
+Company:  Quantum- Systems GmbH
+Location: Gilching
+Source:   ArbeitNow
+Link:     https://www.arbeitnow.com/jobs/companies/quantum-systems-gmbh/it-security-engineer-gilching-70127
+--------------------------------------------------
