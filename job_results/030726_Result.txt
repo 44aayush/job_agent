@@ -1,0 +1,16 @@
+JOB SEARCH REPORT - 2026-07-03
+Total Jobs Found: 2
+==================================================
+
+Role:     IT Infrastructure and Security Engineer
+Company:  Zentso S GmbH
+Location: Berlin
+Source:   ArbeitNow
+Link:     https://www.arbeitnow.com/jobs/companies/zentso-s-gmbh/it-infrastructure-and-security-engineer-berlin-498582
+--------------------------------------------------
+Role:     Microsoft 365 Security & Governance Specialist (m/w/d)
+Company:  FINOVESTA GmbH
+Location: Düsseldorf
+Source:   ArbeitNow
+Link:     https://www.arbeitnow.com/jobs/companies/finovesta-gmbh/microsoft-365-security-governance-specialist-dusseldorf-13748
+--------------------------------------------------
