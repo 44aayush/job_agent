@@ -1,0 +1,16 @@
+JOB SEARCH REPORT - 2026-07-08
+Total Jobs Found: 2
+==================================================
+
+Role:     SAP Security Berater (m/w/d)
+Company:  GoToSec GmbH
+Location: Monheim am Rhein
+Source:   ArbeitNow
+Link:     https://www.arbeitnow.com/jobs/companies/gotosec-gmbh/sap-security-berater-monheim-am-rhein-491523
+--------------------------------------------------
+Role:     Administrator für IT Security (m/w/d)
+Company:  hubside - Die Recruitingwerkstatt
+Location: Starnberg
+Source:   ArbeitNow
+Link:     https://www.arbeitnow.com/jobs/companies/hubside-die-recruitingwerkstatt/administrator-fur-it-security-starnberg-208049
+--------------------------------------------------
