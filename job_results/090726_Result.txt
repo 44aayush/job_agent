@@ -1,0 +1,28 @@
+JOB SEARCH REPORT - 2026-07-09
+Total Jobs Found: 4
+==================================================
+
+Role:     (Senior) Full Stack Software Engineer (m|w|d) - Kotlin, React, AWS
+Company:  idealo internet GmbH
+Location: Berlin
+Source:   ArbeitNow
+Link:     https://www.arbeitnow.com/jobs/companies/idealo-internet-gmbh/senior-full-stack-software-engineer-mwd-kotlin-react-aws-berlin-205936
+--------------------------------------------------
+Role:     AWS Cloud Data Engineer (m/w/d)
+Company:  Unigy GmbH
+Location: Essen
+Source:   ArbeitNow
+Link:     https://www.arbeitnow.com/jobs/companies/unigy-gmbh/aws-cloud-data-engineer-essen-139122
+--------------------------------------------------
+Role:     Senior Cloud / IAM Consultant (AWS) (m/w/d)
+Company:  Rockstardevelopers GmbH
+Location: Stuttgart
+Source:   ArbeitNow
+Link:     https://www.arbeitnow.com/jobs/companies/rockstardevelopers-gmbh/senior-cloud-iam-consultant-aws-stuttgart-381840
+--------------------------------------------------
+Role:     Senior Cloud / DevOps Engineer (AWS) (m/w/d)
+Company:  Rockstardevelopers GmbH
+Location: Stuttgart
+Source:   ArbeitNow
+Link:     https://www.arbeitnow.com/jobs/companies/rockstardevelopers-gmbh/senior-cloud-devops-engineer-aws-stuttgart-89316
+--------------------------------------------------
