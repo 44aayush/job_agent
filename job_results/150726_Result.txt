@@ -1,0 +1,16 @@
+JOB SEARCH REPORT - 2026-07-15
+Total Jobs Found: 2
+==================================================
+
+Role:     SOC Consultant (Security Operations Center) (m/w/d)
+Company:  Hanitel GmbH
+Location: Berlin
+Source:   ArbeitNow
+Link:     https://www.arbeitnow.com/jobs/companies/hanitel-gmbh/soc-consultant-security-operations-center-berlin-347681
+--------------------------------------------------
+Role:     Managed Security Services Advisor (m/w/d)
+Company:  NVISO
+Location: Munich
+Source:   ArbeitNow
+Link:     https://www.arbeitnow.com/jobs/companies/nviso/managed-security-services-advisor-munich-31426
+--------------------------------------------------
