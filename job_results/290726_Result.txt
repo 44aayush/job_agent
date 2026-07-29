@@ -1,0 +1,16 @@
+JOB SEARCH REPORT - 2026-07-29
+Total Jobs Found: 2
+==================================================
+
+Role:     Fullstack Engineer-  AWS, Typescript, Java, Spring Boot, React, Next.js (m/f/d)
+Company:  Trusted Shops SE (DE)
+Location: Cologne, Nordrhein-Westfalen, Germany
+Source:   ArbeitNow
+Link:     https://www.arbeitnow.com/jobs/companies/trusted-shops-se-de/fullstack-engineer-aws-typescript-java-spring-boot-react-nextjs-cologne-496519
+--------------------------------------------------
+Role:     Senior Trust Security Analyst
+Company:  nice
+Location: 
+Source:   ArbeitNow
+Link:     https://www.arbeitnow.co.uk/jobs/companies/nice/senior-trust-security-analyst-137278
+--------------------------------------------------
