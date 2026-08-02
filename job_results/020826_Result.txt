@@ -1,0 +1,22 @@
+JOB SEARCH REPORT - 2026-08-02
+Total Jobs Found: 3
+==================================================
+
+Role:     (Senior) IT Consultant (all genders) - Active Directory, PKI & Security
+Company:  teccle group GmbH
+Location: Homeoffice
+Source:   ArbeitNow
+Link:     https://www.arbeitnow.com/jobs/companies/teccle-group-gmbh/remote-senior-it-consultant-all-genders-active-directory-pki-security-nabburg-8058
+--------------------------------------------------
+Role:     Platform Engineering Manager
+Company:  prolific
+Location: Remote
+Source:   ArbeitNow
+Link:     https://www.arbeitnow.co.uk/jobs/companies/prolific/remote-platform-engineering-manager-48498
+--------------------------------------------------
+Role:     (Lead/Senior) Technical Product Manager - Platform Engineering (m/f/d)
+Company:  1Komma5Grad
+Location: Remote
+Source:   ArbeitNow
+Link:     https://www.arbeitnow.co.uk/jobs/companies/1komma5grad/remote-lead-senior-technical-product-manager-platform-engineering-253789
+--------------------------------------------------
