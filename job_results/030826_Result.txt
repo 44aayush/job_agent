@@ -1,0 +1,22 @@
+JOB SEARCH REPORT - 2026-08-03
+Total Jobs Found: 3
+==================================================
+
+Role:     Senior Product Security Engineer
+Company:  Staffbase
+Location: Dresden, Sachsen
+Source:   ArbeitNow
+Link:     https://www.arbeitnow.com/jobs/companies/staffbase/senior-product-security-engineer-dresden-sachsen-399915
+--------------------------------------------------
+Role:     Senior Product Security Engineer
+Company:  Staffbase
+Location: Chemnitz, Sachsen
+Source:   ArbeitNow
+Link:     https://www.arbeitnow.com/jobs/companies/staffbase/senior-product-security-engineer-chemnitz-sachsen-119840
+--------------------------------------------------
+Role:     Engineering Director, Security
+Company:  Monzo
+Location: Cardiff
+Source:   ArbeitNow
+Link:     https://www.arbeitnow.co.uk/jobs/companies/monzo/engineering-director-security-cardiff-388683
+--------------------------------------------------
