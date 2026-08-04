@@ -1,0 +1,34 @@
+JOB SEARCH REPORT - 2026-08-04
+Total Jobs Found: 5
+==================================================
+
+Role:     Security Engineer
+Company:  Wehrtyou
+Location: New York, NY, United States
+Source:   ArbeitNow
+Link:     https://www.arbeitnow.co.uk/jobs/companies/wehrtyou/security-engineer-new-york-ny-united-states-275031
+--------------------------------------------------
+Role:     Senior Security Engineer I, Customer Trust EMEA (Remote Eligible in the UK)
+Company:  Smartsheet
+Location: -REMOTE
+Source:   ArbeitNow
+Link:     https://www.arbeitnow.co.uk/jobs/companies/smartsheet/senior-security-engineer-i-customer-trust-emea-remote-eligible-in-the-uk-470009
+--------------------------------------------------
+Role:     Senior Cloud Platform Engineer (AWS/GCP)
+Company:  Ensono
+Location: 
+Source:   ArbeitNow
+Link:     https://www.arbeitnow.co.uk/jobs/companies/ensono/senior-cloud-platform-engineer-aws-gcp-415935
+--------------------------------------------------
+Role:     Staff Enterprise Security Engineer, AI Security
+Company:  Twilio
+Location: 
+Source:   ArbeitNow
+Link:     https://www.arbeitnow.co.uk/jobs/companies/twilio/staff-enterprise-security-engineer-ai-security-407503
+--------------------------------------------------
+Role:     Security Engineer, Incident Response
+Company:  Twilio
+Location: 
+Source:   ArbeitNow
+Link:     https://www.arbeitnow.co.uk/jobs/companies/twilio/security-engineer-incident-response-170804
+--------------------------------------------------
