@@ -1,0 +1,58 @@
+JOB SEARCH REPORT - 2026-08-06
+Total Jobs Found: 9
+==================================================
+
+Role:     (Junior) Consultant Information Security (m/f/d)
+Company:  Dataguard
+Location: Munich
+Source:   ArbeitNow
+Link:     https://www.arbeitnow.com/jobs/companies/dataguard/junior-consultant-information-security-munich-309342
+--------------------------------------------------
+Role:     Information Security Engineer
+Company:  Rivada Space Networks Gmbh
+Location: Munich
+Source:   ArbeitNow
+Link:     https://www.arbeitnow.com/jobs/companies/rivada-space-networks-gmbh/information-security-engineer-munich-440298
+--------------------------------------------------
+Role:     Senior Staff Information Security Engineer
+Company:  Nmi
+Location: Remote, US
+Source:   ArbeitNow
+Link:     https://www.arbeitnow.co.uk/jobs/companies/nmi/remote-senior-staff-information-security-engineer-180309
+--------------------------------------------------
+Role:     Senior Staff Information Security Engineer
+Company:  Nmi
+Location: Remote
+Source:   ArbeitNow
+Link:     https://www.arbeitnow.co.uk/jobs/companies/nmi/remote-senior-staff-information-security-engineer-102266
+--------------------------------------------------
+Role:     Security Compliance Specialist
+Company:  Transficc
+Location: London
+Source:   ArbeitNow
+Link:     https://www.arbeitnow.co.uk/jobs/companies/transficc/security-compliance-specialist-london-323768
+--------------------------------------------------
+Role:     (Lead/Senior) Technical Product Manager - Platform Engineering (m/f/d)
+Company:  1Komma5Grad
+Location: Remote
+Source:   ArbeitNow
+Link:     https://www.arbeitnow.co.uk/jobs/companies/1komma5grad/remote-lead-senior-technical-product-manager-platform-engineering-456438
+--------------------------------------------------
+Role:     Security GRC Analyst
+Company:  Lendable
+Location: London
+Source:   ArbeitNow
+Link:     https://www.arbeitnow.co.uk/jobs/companies/lendable/security-grc-analyst-london-408279
+--------------------------------------------------
+Role:     Senior Security Engineer
+Company:  Lendable
+Location: London
+Source:   ArbeitNow
+Link:     https://www.arbeitnow.co.uk/jobs/companies/lendable/senior-security-engineer-london-321531
+--------------------------------------------------
+Role:     Security Operations Lead
+Company:  Lendable
+Location: London
+Source:   ArbeitNow
+Link:     https://www.arbeitnow.co.uk/jobs/companies/lendable/security-operations-lead-london-172773
+--------------------------------------------------
