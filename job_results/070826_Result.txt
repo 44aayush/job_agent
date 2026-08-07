@@ -1,0 +1,16 @@
+JOB SEARCH REPORT - 2026-08-07
+Total Jobs Found: 2
+==================================================
+
+Role:     Working Student Information Security & Access Management (m/f/d)
+Company:  Raisin
+Location: Berlin, Berlin
+Source:   ArbeitNow
+Link:     https://www.arbeitnow.com/jobs/companies/raisin/working-student-information-security-access-management-berlin-berlin-464474
+--------------------------------------------------
+Role:     Senior Information Security Specialist
+Company:  Secfix
+Location: Remote-Europe
+Source:   ArbeitNow
+Link:     https://www.arbeitnow.com/jobs/companies/secfix/senior-information-security-specialist-berlin-298456
+--------------------------------------------------
