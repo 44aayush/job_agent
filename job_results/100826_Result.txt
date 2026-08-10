@@ -1,0 +1,22 @@
+JOB SEARCH REPORT - 2026-08-10
+Total Jobs Found: 3
+==================================================
+
+Role:     Staff Software Engineer - Security Agent
+Company:  Datadog
+Location: Remote
+Source:   ArbeitNow
+Link:     https://www.arbeitnow.com/jobs/companies/datadog/remote-staff-software-engineer-security-agent-182551
+--------------------------------------------------
+Role:     Senior Backend Engineer - (Kotlin, Spring, AWS) - Better Places (d/f/m)
+Company:  Bettermile
+Location: Better Place, Oranienstraße 183, Berlin
+Source:   ArbeitNow
+Link:     https://www.arbeitnow.com/jobs/companies/bettermile/senior-backend-engineer-kotlin-spring-aws-better-places-berlin-241709
+--------------------------------------------------
+Role:     Senior Security Engineer
+Company:  Mattermost
+Location: 
+Source:   ArbeitNow
+Link:     https://www.arbeitnow.co.uk/jobs/companies/mattermost/senior-security-engineer-177356
+--------------------------------------------------
