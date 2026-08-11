@@ -1,0 +1,22 @@
+JOB SEARCH REPORT - 2026-08-11
+Total Jobs Found: 3
+==================================================
+
+Role:     Information Security Lead
+Company:  Secfix
+Location: Remote-Europe
+Source:   ArbeitNow
+Link:     https://www.arbeitnow.com/jobs/companies/secfix/information-security-lead-berlin-385700
+--------------------------------------------------
+Role:     Solution Architect - AWS Plattform & Cloud Security (m/w/d)
+Company:  Rockstardevelopers GmbH
+Location: Stuttgart
+Source:   ArbeitNow
+Link:     https://www.arbeitnow.com/jobs/companies/rockstardevelopers-gmbh/solution-architect-aws-plattform-cloud-security-stuttgart-12120
+--------------------------------------------------
+Role:     Staff Backend Engineer - JVM (Java/Kotlin) & AWS
+Company:  Adsquare
+Location: Berlin
+Source:   ArbeitNow
+Link:     https://www.arbeitnow.com/jobs/companies/adsquare/staff-backend-engineer-jvm-java-kotlin-aws-berlin-331742
+--------------------------------------------------
