@@ -1,0 +1,22 @@
+JOB SEARCH REPORT - 2026-08-12
+Total Jobs Found: 3
+==================================================
+
+Role:     Infrastructure Security Engineer
+Company:  Ss8
+Location: 
+Source:   ArbeitNow
+Link:     https://www.arbeitnow.co.uk/jobs/companies/ss8/infrastructure-security-engineer-351433
+--------------------------------------------------
+Role:     Staff Security Engineer
+Company:  Mozilla
+Location: 
+Source:   ArbeitNow
+Link:     https://www.arbeitnow.co.uk/jobs/companies/mozilla/staff-security-engineer-22314
+--------------------------------------------------
+Role:     Security Engineer
+Company:  LemFi
+Location: London
+Source:   ArbeitNow
+Link:     https://www.arbeitnow.co.uk/jobs/companies/lemfi/security-engineer-london-117816
+--------------------------------------------------
