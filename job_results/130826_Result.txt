@@ -1,0 +1,46 @@
+JOB SEARCH REPORT - 2026-08-13
+Total Jobs Found: 7
+==================================================
+
+Role:     Senior Product Security Engineer
+Company:  Blockchain
+Location: London
+Source:   ArbeitNow
+Link:     https://www.arbeitnow.co.uk/jobs/companies/blockchain/senior-product-security-engineer-london-430003
+--------------------------------------------------
+Role:     Security Engineer, Institutional Trading
+Company:  Blockchain
+Location: London
+Source:   ArbeitNow
+Link:     https://www.arbeitnow.co.uk/jobs/companies/blockchain/security-engineer-institutional-trading-london-286975
+--------------------------------------------------
+Role:     Infrastructure Security Engineer
+Company:  Blockchain
+Location: London
+Source:   ArbeitNow
+Link:     https://www.arbeitnow.co.uk/jobs/companies/blockchain/infrastructure-security-engineer-london-391905
+--------------------------------------------------
+Role:     Chief Information Security Officer (CISO)
+Company:  Blockchain
+Location: London
+Source:   ArbeitNow
+Link:     https://www.arbeitnow.co.uk/jobs/companies/blockchain/chief-information-security-officer-ciso-london-488780
+--------------------------------------------------
+Role:     Lead Security Operations Engineer
+Company:  Pleo
+Location: United Kingdom
+Source:   ArbeitNow
+Link:     https://www.arbeitnow.co.uk/jobs/companies/pleo/lead-security-operations-engineer-united-kingdom-365261
+--------------------------------------------------
+Role:     Senior/Lead Cloud Security Engineer
+Company:  Flohealth
+Location: London
+Source:   ArbeitNow
+Link:     https://www.arbeitnow.co.uk/jobs/companies/flohealth/senior-lead-cloud-security-engineer-london-16817
+--------------------------------------------------
+Role:     Senior/Lead Cloud Security Engineer
+Company:  Flohealth
+Location: Vilnius
+Source:   ArbeitNow
+Link:     https://www.arbeitnow.co.uk/jobs/companies/flohealth/senior-lead-cloud-security-engineer-vilnius-45548
+--------------------------------------------------
