@@ -1,0 +1,22 @@
+JOB SEARCH REPORT - 2026-08-17
+Total Jobs Found: 3
+==================================================
+
+Role:     Werkstudent IT-Administration & Security (m/w/d)
+Company:  Vivira Health Lab
+Location: Berlin
+Source:   ArbeitNow
+Link:     https://www.arbeitnow.com/jobs/companies/vivira-health-lab/werkstudent-it-administration-security-berlin-415872
+--------------------------------------------------
+Role:     Senior Application Security Manager
+Company:  Pleo
+Location: United Kingdom
+Source:   ArbeitNow
+Link:     https://www.arbeitnow.co.uk/jobs/companies/pleo/senior-application-security-manager-united-kingdom-356151
+--------------------------------------------------
+Role:     Senior Application Security Manager
+Company:  Pleo
+Location: London
+Source:   ArbeitNow
+Link:     https://www.arbeitnow.co.uk/jobs/companies/pleo/senior-application-security-manager-london-273782
+--------------------------------------------------
