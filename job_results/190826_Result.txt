@@ -1,0 +1,40 @@
+JOB SEARCH REPORT - 2026-08-19
+Total Jobs Found: 6
+==================================================
+
+Role:     Platform and Integration Engineer, Security Telemetry (32h)
+Company:  RedMimicry GmbH
+Location: Berlin
+Source:   ArbeitNow
+Link:     https://www.arbeitnow.com/jobs/companies/redmimicry-gmbh/platform-and-integration-engineer-security-telemetry-32h-berlin-447900
+--------------------------------------------------
+Role:     Senior AI/ML Engineer, Security Log Intelligence
+Company:  RedMimicry GmbH
+Location: Berlin
+Source:   ArbeitNow
+Link:     https://www.arbeitnow.com/jobs/companies/redmimicry-gmbh/senior-ai-ml-engineer-security-log-intelligence-berlin-431641
+--------------------------------------------------
+Role:     Full Stack Engineer, Security Analytics
+Company:  RedMimicry GmbH
+Location: Berlin
+Source:   ArbeitNow
+Link:     https://www.arbeitnow.com/jobs/companies/redmimicry-gmbh/full-stack-engineer-security-analytics-berlin-400966
+--------------------------------------------------
+Role:     Senior Cyber Security Engineer
+Company:  Baringa
+Location: London; Remote
+Source:   ArbeitNow
+Link:     https://www.arbeitnow.co.uk/jobs/companies/baringa/remote-senior-cyber-security-engineer-190385
+--------------------------------------------------
+Role:     AWS Platform Engineer: Developer
+Company:  Baringa
+Location: London
+Source:   ArbeitNow
+Link:     https://www.arbeitnow.co.uk/jobs/companies/baringa/aws-platform-engineer-developer-london-210429
+--------------------------------------------------
+Role:     Senior Corporate Security Engineer
+Company:  Deliveroo
+Location: London - The River Building HQ
+Source:   ArbeitNow
+Link:     https://www.arbeitnow.co.uk/jobs/companies/deliveroo/senior-corporate-security-engineer-london-397408
+--------------------------------------------------
