@@ -1,0 +1,28 @@
+JOB SEARCH REPORT - 2026-08-20
+Total Jobs Found: 4
+==================================================
+
+Role:     Werkstudent*in Information Security Awareness & Automation
+Company:  QAware GmbH
+Location: München
+Source:   ArbeitNow
+Link:     https://www.arbeitnow.com/jobs/companies/qaware-gmbh/werkstudentin-information-security-awareness-automation-munchen-366502
+--------------------------------------------------
+Role:     Senior Cyber Security Expert (d/f/m)
+Company:  intcube GmbH
+Location: Berlin
+Source:   ArbeitNow
+Link:     https://www.arbeitnow.com/jobs/companies/intcube-gmbh/senior-cyber-security-expert-berlin-407196
+--------------------------------------------------
+Role:     Security & Compliance Engineer - Remote Germany
+Company:  Linro
+Location: Germany
+Source:   ArbeitNow
+Link:     https://www.arbeitnow.com/jobs/companies/linro/security-compliance-engineer-remote-germany-469817
+--------------------------------------------------
+Role:     Senior Security Engineer
+Company:  Docebo
+Location: London, UK
+Source:   ArbeitNow
+Link:     https://www.arbeitnow.co.uk/jobs/companies/docebo/senior-security-engineer-london-164567
+--------------------------------------------------
