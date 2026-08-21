@@ -1,0 +1,22 @@
+JOB SEARCH REPORT - 2026-08-21
+Total Jobs Found: 3
+==================================================
+
+Role:     Head of Platform Engineering (International)
+Company:  Allica Bank
+Location: Milton Keynes Office
+Source:   ArbeitNow
+Link:     https://www.arbeitnow.co.uk/jobs/companies/allica-bank/head-of-platform-engineering-international-milton-keynes-436700
+--------------------------------------------------
+Role:     Senior Security & Compliance Engineer
+Company:  Xyz Reality
+Location: London Office
+Source:   ArbeitNow
+Link:     https://www.arbeitnow.co.uk/jobs/companies/xyz-reality/senior-security-compliance-engineer-london-467546
+--------------------------------------------------
+Role:     Software Engineer II, Security
+Company:  Everquote
+Location: Belfast, Northern Ireland
+Source:   ArbeitNow
+Link:     https://www.arbeitnow.co.uk/jobs/companies/everquote/software-engineer-ii-security-belfast-northern-ireland-83881
+--------------------------------------------------
