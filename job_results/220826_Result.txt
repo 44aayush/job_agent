@@ -1,0 +1,52 @@
+JOB SEARCH REPORT - 2026-08-22
+Total Jobs Found: 8
+==================================================
+
+Role:     Principal Engineer, Product Security (m/f/x)
+Company:  commercetools
+Location: München, Bayern
+Source:   ArbeitNow
+Link:     https://www.arbeitnow.com/jobs/companies/commercetools/principal-engineer-product-security-munchen-bayern-353065
+--------------------------------------------------
+Role:     Principal Engineer, Product Security (m/f/x)
+Company:  commercetools
+Location: Berlin
+Source:   ArbeitNow
+Link:     https://www.arbeitnow.com/jobs/companies/commercetools/principal-engineer-product-security-berlin-442587
+--------------------------------------------------
+Role:     Werkstudent Softwareentwicklung Schwerpunkt Security (m/w/d)
+Company:  Meierhofer
+Location: Leipzig
+Source:   ArbeitNow
+Link:     https://www.arbeitnow.com/jobs/companies/meierhofer/remote-werkstudent-softwareentwicklung-schwerpunkt-security-leipzig-124861
+--------------------------------------------------
+Role:     Security Engineer - Product
+Company:  Wizinc
+Location: London
+Source:   ArbeitNow
+Link:     https://www.arbeitnow.co.uk/jobs/companies/wizinc/security-engineer-product-london-421812
+--------------------------------------------------
+Role:     Associate Director, Platform Engineering
+Company:  Relationrx
+Location: London
+Source:   ArbeitNow
+Link:     https://www.arbeitnow.co.uk/jobs/companies/relationrx/associate-director-platform-engineering-london-467941
+--------------------------------------------------
+Role:     Senior Manager, Product Security Engineering (Security Posture and Supply Chain)
+Company:  gitlab
+Location: Remote
+Source:   ArbeitNow
+Link:     https://www.arbeitnow.co.uk/jobs/companies/gitlab/remote-senior-manager-product-security-engineering-security-posture-and-supply-chain-261318
+--------------------------------------------------
+Role:     Intermediate Software Engineer, Security Factory: Vulnerability Management
+Company:  gitlab
+Location: Remote
+Source:   ArbeitNow
+Link:     https://www.arbeitnow.co.uk/jobs/companies/gitlab/remote-intermediate-software-engineer-security-factory-vulnerability-management-85833
+--------------------------------------------------
+Role:     Head of Security Engineering (DevSecOps & CISO)
+Company:  Smarkets
+Location: London
+Source:   ArbeitNow
+Link:     https://www.arbeitnow.co.uk/jobs/companies/smarkets/head-of-security-engineering-devsecops-ciso-london-274902
+--------------------------------------------------
